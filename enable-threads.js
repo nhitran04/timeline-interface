@@ -39,9 +39,9 @@ if(typeof window === 'undefined') {
 
     const headers = new Headers(r.headers);
     headers.set("Cross-Origin-Embedder-Policy", "credentialless"); // or: require-corp
-    headers.set("Cross-Origin-Opener-Policy", "cross-origin");
-    headers.set("Content-Security-Policy", "frame-ancestors https:")
-    
+    headers.set("Cross-Origin-Opener-Policy", "same-origin");
+    headers.set("Access-Control-Allow-Origin", "*");
+
     return new Response(r.body, { status: r.status, statusText: r.statusText, headers });
   }
 
