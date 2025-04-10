@@ -1,0 +1,55 @@
+WEBVTT
+
+1
+00:04.252 --> 00:08.185
+To create a checkpoint click the green plus
+button on the center of your screen.
+
+2
+00:09.070 --> 00:13.991
+Recall that a checkpoint is a building
+block that you will use to provide
+instructions to the robot.
+
+3
+00:14.828 --> 00:19.218
+To begin providing instructions, click the
+blue plus button on the empty checkpoint.
+
+4
+00:19.832 --> 00:24.464
+Click the top drop down to select a goal
+that you want the robot to achieve.
+
+5
+00:25.292 --> 00:31.362
+The blue boxes above the checkpoint are the
+actions that the robot will take it to
+achieve its goal.
+
+6
+00:33.868 --> 00:39.998
+Below the top dropdown, you will see a
+natural language translation of the goal.
+
+7 
+00:40.000 --> 00:46.783
+You  can change the parameters by selecting the
+gray drop-down menus and selecting one of
+the options.
+
+8
+00:47.855 --> 00:52.175
+You can also add multiple goals to a single
+checkpoint.
+
+9
+00:53.045 --> 00:59.756
+To clear a goal from the checkpoint, click
+the delete button from the top right corner
+of the natural language translation.
+
+10
+01:01.166 --> 01:04.149
+You can add checkpoints in either direction.
+
