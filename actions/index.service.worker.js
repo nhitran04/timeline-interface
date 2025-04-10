@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1744313517|343106376';
+const CACHE_VERSION = '1744314584|1410651227';
 /** @type {string} */
 const CACHE_PREFIX = 'Polaris_Godot-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
