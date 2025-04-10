@@ -40,6 +40,7 @@ if(typeof window === 'undefined') {
     const headers = new Headers(r.headers);
     headers.set("Cross-Origin-Embedder-Policy", "credentialless"); // or: require-corp
     headers.set("Cross-Origin-Opener-Policy", "cross-origin");
+    headers.set("Content-Security-Policy", "frame-ancestors https:")
     
     return new Response(r.body, { status: r.status, statusText: r.statusText, headers });
   }
