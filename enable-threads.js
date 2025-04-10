@@ -1,3 +1,5 @@
+// SOURCE: https://github.com/josephrocca/clip-image-sorter/blob/main/enable-threads.js
+
 // NOTE: This file creates a service worker that cross-origin-isolates the page (read more here: https://web.dev/coop-coep/) which allows us to use wasm threads.
 // Normally you would set the COOP and COEP headers on the server to do this, but Github Pages doesn't allow this, so this is a hack to do that.
 
@@ -37,7 +39,7 @@ if(typeof window === 'undefined') {
 
     const headers = new Headers(r.headers);
     headers.set("Cross-Origin-Embedder-Policy", "credentialless"); // or: require-corp
-    headers.set("Cross-Origin-Opener-Policy", "same-origin");
+    headers.set("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
     
     return new Response(r.body, { status: r.status, statusText: r.statusText, headers });
   }
