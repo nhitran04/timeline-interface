@@ -1,0 +1,44 @@
+WEBVTT
+
+1
+00:03.396 --> 00:08.853
+To begin providing instructions to your
+robot click the green plus button at the
+center of your screen.
+
+2
+00:09.808 --> 00:15.551
+To start giving instructions, click the blue
+button at the center of your box.
+
+3
+00:17.226 --> 00:23.366
+To provide an action to the robot, select the
+white drop-down box at the top of the box.
+
+4
+00:26.592 --> 00:29.492
+A translation of the action will be shown
+below.
+
+5
+00:30.461 --> 00:36.321
+You can change the parameters by selecting
+the gray drop down boxes from the translation.
+
+6
+00:38.479 --> 00:43.328
+You can add boxes either above or below your
+current box.
+
+7
+00:47.538 --> 00:55.448
+If there is a missing step between actions,
+the robot will plan to fill in this missing
+gap in knowledge.
+
+8
+00:56.637 --> 01:01.820
+To delete an action select the red X button
+at the top of your box.
+
